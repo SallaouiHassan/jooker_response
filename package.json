@@ -1,0 +1,90 @@
+{
+  "_from": "git+https://github.com/SallaouiHassan/jooker_response.git#master",
+  "_id": "@jooker-response/http-response@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/@jooker-response/http-response",
+  "_phantomChildren": {
+    "axios": "0.19.2",
+    "cli-color": "2.0.0",
+    "tslib": "1.11.1"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "@jooker-response/http-response@git+https://github.com/SallaouiHassan/jooker_response.git#master",
+    "name": "@jooker-response/http-response",
+    "escapedName": "@jooker-response%2fhttp-response",
+    "scope": "@cloudeco",
+    "rawSpec": "git+https://github.com/SallaouiHassan/jooker_response.git#master",
+    "saveSpec": "git+https://github.com/SallaouiHassan/jooker_response.git#master",
+    "fetchSpec": "https://github.com/SallaouiHassan/jooker_response.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://gitlab+deploy-token-12:k6VbtqAwxW6zumgfPwB5@gitlab.sct-solutions.fr/alpha-team/http-result.git#f4dd8a01812f83ce4b3575642333e9603b6a3d23",
+  "_spec": "@jooker-response/http-response@git+https://github.com/SallaouiHassan/jooker_response.git#master",
+  "_where": "",
+  "author": {
+    "name": "jooker res"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@nestjs/common": "^6.0.0"
+  },
+  "deprecated": false,
+  "description": "package for unification of HTTP and Services respons",
+  "devDependencies": {
+    "@nestjs/cli": "^7.0.0",
+    "@nestjs/schematics": "^7.0.0",
+    "@nestjs/testing": "^7.0.0",
+    "@types/express": "^4.17.3",
+    "@types/jest": "25.1.4",
+    "@types/node": "^13.9.1",
+    "@types/supertest": "^2.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2",
+    "ts-jest": "25.2.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.6.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.7.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  },
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "name": "@jooker-response/http-response",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
+    "prebuild": "rimraf dist",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "test:watch": "jest --watch"
+  },
+  "version": "1.0.0"
+}

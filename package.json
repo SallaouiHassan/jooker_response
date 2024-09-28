@@ -23,7 +23,7 @@
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "git+https://gitlab+deploy-token-12:k6VbtqAwxW6zumgfPwB5@gitlab.sct-solutions.fr/alpha-team/http-result.git#f4dd8a01812f83ce4b3575642333e9603b6a3d23",
+  "_resolved": "git+https://github.com/SallaouiHassan/jooker_response.git#master",
   "_spec": "@jooker-response/http-response@git+https://github.com/SallaouiHassan/jooker_response.git#master",
   "_where": "",
   "author": {
